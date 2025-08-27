@@ -1,65 +1,49 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-  <meta charset="UTF-8">
-  <title>Главная - Мой сайт</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background: linear-gradient(120deg, #74ebd5, #9face6);
-      color: #333;
-    }
-    header {
-      background: rgba(255,255,255,0.9);
-      padding: 20px;
-      text-align: center;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
-    }
-    nav a {
-      margin: 0 15px;
-      text-decoration: none;
-      font-weight: bold;
-      color: #333;
-    }
-    nav a:hover {
-      color: #0077cc;
-    }
-    main {
-      max-width: 800px;
-      margin: 40px auto;
-      padding: 20px;
-      background: rgba(255,255,255,0.9);
-      border-radius: 15px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-      text-align: center;
-    }
-    footer {
-      text-align: center;
-      padding: 20px;
-      background: rgba(255,255,255,0.8);
-      box-shadow: 0 -2px 6px rgba(0,0,0,0.2);
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мой сайт</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1>Добро пожаловать на мой сайт!</h1>
-    <nav>
-      <a href="index.html">Главная</a>
-      <a href="about.html">Обо мне</a>
-      <a href="projects.html">Проекты</a>
-      <a href="contacts.html">Контакты</a>
-    </nav>
-  </header>
+    <!-- Шапка -->
+    <header>
+        <h1>My-Site</h1>
+        <nav>
+            <a href="index.html">Главная</a>
+            <a href="about.html">Обо мне</a>
+            <a href="projects.html">Проекты</a>
+            <a href="contacts.html">Контакты</a>
+        </nav>
+    </header>
 
-  <main>
-    <h2>Главная страница</h2>
-    <p>Здесь краткая информация и приветствие для посетителей.</p>
-  </main>
+    <!-- Главный экран -->
+    <section class="hero">
+        <h2>Добро пожаловать на мой сайт</h2>
+        <p>Здесь вы найдете информацию обо мне, моих проектах и способах связаться со мной.</p>
+        <a href="about.html" class="btn">Узнать больше</a>
+    </section>
 
-  <footer>
-    <p>© 2025 Мой сайт</p>
-  </footer>
+    <!-- Проекты -->
+    <section class="projects">
+        <div class="project-card">
+            <h3>Проект 1</h3>
+            <p>Описание первого проекта. Что он делает и почему он классный.</p>
+        </div>
+        <div class="project-card">
+            <h3>Проект 2</h3>
+            <p>Описание второго проекта. Здесь можно рассказать подробнее.</p>
+        </div>
+        <div class="project-card">
+            <h3>Проект 3</h3>
+            <p>Описание третьего проекта. Можно добавить ссылки или скриншоты.</p>
+        </div>
+    </section>
+
+    <!-- Подвал -->
+    <footer>
+        <p>© 2025 My-Site. Все права защищены.</p>
+    </footer>
 </body>
 </html>
